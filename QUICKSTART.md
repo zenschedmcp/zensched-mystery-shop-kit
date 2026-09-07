@@ -75,7 +75,7 @@ Behind the scenes the AI saves the client and program locally, adds the four sto
 
 > Invite Dana Ruiz, dana@example.com, Austin, PayPal same email. And Marcus Lee, marcus@example.com, Denver, Venmo @marcuslee.
 
-Each gets an email ($0.25), installs the app ([Android](https://play.google.com/store/apps/details?id=com.zensched.app) / [iOS TestFlight](https://testflight.apple.com/join/Wp51m5Yq)), and activates. Send them the scenario yourself; ZenSched shows them the store, the slot, and the form.
+Each gets an email ($0.25), installs the app ([Android](https://play.google.com/store/apps/details?id=com.zensched.app) / [iOS App Store](https://apps.apple.com/us/app/zensched/id6800081657)), and activates. Send them the scenario yourself; ZenSched shows them the store, the slot, and the form.
 
 ## 8. Assign the shops
 

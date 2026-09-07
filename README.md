@@ -181,7 +181,7 @@ See `QUICKSTART.md` for the first-wave walkthrough and `example-workflow.md` for
 ## Mobile app for shoppers
 
 - **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.zensched.app)
-- **iOS:** [TestFlight](https://testflight.apple.com/join/Wp51m5Yq)
+- **iOS:** [App Store](https://apps.apple.com/us/app/zensched/id6800081657)
 
 When you invite a shopper, they get an email, install the app, and can immediately see their assigned shops, check in and out with GPS verification, and fill in the evaluation form. The receipt photo is a required field; the form cannot be submitted without it. The scenario ("order a combo, ask about dessert") is something you tell the shopper yourself; ZenSched shows them the store, the slot, and the form.
 
