@@ -71,7 +71,7 @@ Each program gets **its own** form (`form_create`, id in `programs.zensched_form
 | Receipt total | `number` (or `currency`) | |
 | Receipt / proof photo | `photo` with `max_images` 1–2 and `required: true` | Receipt is **always** required; it is the proof of purchase and the timestamp cross-check |
 | Section heading | `section` with `label` and optional `text` (instructions) | |
-| Follow-up only when X | any field with `show_if: {"field": <identifier of an earlier select/multi_select>, "op": "equals" \| "not_equals" \| "contains" \| "is_empty" \| "is_not_empty", "value": <option key>, "action": "show"}` | Sources must be `select` / `multi_select`; ZenSched documents conditionals as web-only, so the phone may show the field unconditionally. Say so in the label ("What was wrong? (if not accurate)") |
+| Follow-up only when X | any field with `show_if: {"field": <identifier of an earlier select/multi_select>, "op": "equals" \| "not_equals" \| "contains" \| "is_empty" \| "is_not_empty", "value": <option key>, "action": "show"}` | Sources must be an earlier `select` / `multi_select`. Honored on the phone and the web. Hidden required fields do not block submit. |
 
 Always set an explicit `identifier` on every field so submission `data` keys are stable, and keep them short snake_case. **Do not add a `signature` field**: on the phone a signature replaces the Submit button, which makes no sense for a shopper filling in a form alone in a parking lot. Up to 80 fields per form; keep it under 30 or shoppers rush it.
 
