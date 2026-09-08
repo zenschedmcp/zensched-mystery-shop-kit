@@ -12,7 +12,7 @@ If you *are* a developer, skip to [For developers](#for-developers).
 
 **What it is not:**
 
-- **ZenSched is not a questionnaire engine.** It stores a form (select, multi-select, text, number, photo, section) and its submissions. `show_if` follow-ups work on the phone and on the web when the source is an earlier select or multi-select. There is no piping, no branching by score, no validation of a time typed as text, and no scoring. Scores, if you want them, are computed by the AI from a weights table in your local database.
+- **ZenSched is not a questionnaire engine.** It stores a form (select, multi-select, text, number, photo, section) and its submissions. `show_if` follow-ups work on the phone when the source is an earlier select or multi-select. There is no piping, no branching by score, no validation of a time typed as text, and no scoring. Scores, if you want them, are computed by the AI from a weights table in your local database.
 - **ZenSched is not a scoring or reporting system.** You get the raw answers as JSON or a CSV download per form and date range. The AI summarizes; the client report is yours to write.
 - **ZenSched is not a shopper marketplace.** It does not recruit, vet, or rate shoppers. You bring the shoppers; the kit tracks their reliability (no-shows, on-time check-ins, rejections) locally.
 - **ZenSched is not a client portal.** Clients never log in. The AI produces a CSV and a plain-text invoice you send.
